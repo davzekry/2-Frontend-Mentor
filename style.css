@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.big_karla {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+}
+.sm_karla {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.light_gray {
+  color: hsl(204, 43%, 93%);
+}
+.dark_gray {
+  color: hsla(220, 40%, 94%, 0.792);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: hsl(204, 43%, 93%);
+}
+section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.padd {
+  padding: 3rem 2rem;
+}
+.h1_padd {
+  padding-bottom: 1.2rem;
+}
+#join h2 {
+  padding-bottom: 1rem;
+}
+
+#join div h1 {
+  color: hsl(179, 62%, 43%);
+}
+#join div h2 {
+  color: hsl(71, 73%, 54%);
+}
+#join p {
+  color: hsl(218, 22%, 67%);
+}
+#blue {
+  display: flex;
+  flex-wrap: wrap;
+}
+#blue > div {
+  width: 50%;
+}
+
+#subscripe {
+  background-color: hsl(179, 62%, 43%);
+}
+#subscripe div .price {
+  font-size:xx-large;
+  margin-right: 1rem;
+}
+.right_p{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+#subscripe button{
+    display: block;
+    width: 100%;
+    padding-block: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+  }
+#why_us {
+  background-color: hsl(179, 62%, 49%);
+}
+
+@media screen and (max-width: 400px) {
+    section{
+        width: 90%;
+    }
+    #blue{
+        flex-direction: column;
+    }
+    #blue>div{
+        width: 100%;
+    }
+}
